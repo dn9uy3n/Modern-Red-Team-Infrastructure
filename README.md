@@ -43,6 +43,10 @@ A comprehensive modern architecture model is proposed to integrate platform solu
 |[Windsurf](https://windsurfrs.com/)|AI coding assistant designed for collaborative programming with real-time suggestions, code understanding, and multi-language support.|
 |[Antigravity](https://antigravity.ai/)|AI agent specialized in software development workflows, offering intelligent code completion, refactoring suggestions, and automated testing capabilities.|
 |[Continue.dev](https://continue.dev/)|Open-source AI code assistant supporting multiple LLMs, enabling autocomplete, code explanation, and customizable prompts directly in your IDE.|
+|[HexStrike AI](https://github.com/0x4m4/hexstrike-ai)|AI-powered code assistant supporting multiple LLMs, enabling autocomplete, code explanation, and customizable prompts directly in your IDE.|
+|[Cursor Best Practices](https://github.com/digitalchild/cursor-best-practices)|AI-powered code assistant supporting multiple LLMs, enabling autocomplete, code explanation, and customizable prompts directly in your IDE.|
+|[awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules)|Collection of Cursor rules for code generation, refactoring, and testing.|
+|[Shannon](https://github.com/KeygraphHQ/shannon)|AI-powered code assistant supporting multiple LLMs, enabling autocomplete, code explanation, and customizable prompts directly in your IDE.|
 
 
 ## AI Model/LLM Server
@@ -137,4 +141,5 @@ A comprehensive modern architecture model is proposed to integrate platform solu
 |[SharpCollection](https://github.com/Flangvik/SharpCollection)|Pre-compiled .NET assembly collection for red team operations including privilege escalation, lateral movement, and Active Directory exploitation.|
 |[UnProtect](https://unprotect.it/)|Comprehensive malware evasion techniques database documenting anti-analysis, anti-debugging, and EDR/AV bypass methods with classification and PoCs.|
 |[DumpChromeSecrets](https://github.com/Maldev-Academy/DumpChromeSecrets)|Tool for extracting Chrome's App-Bound Encryption to extract cookies, credentials, and sensitive data from Chromium-based browsers for post-exploitation.|
-
+|[GitHubDeviceCodePhishing](https://github.com/Maldev-Academy/GitHubDeviceCodePhishing)|Tool for extracting Chrome's App-Bound Encryption to extract cookies, credentials, and sensitive data from Chromium-based browsers for post-exploitation.|
+|[CamPhish](https://github.com/Mr-Spect3r/CamPhish)|Tool for extracting Chrome's App-Bound Encryption to extract cookies, credentials, and sensitive data from Chromium-based browsers for post-exploitation.|
