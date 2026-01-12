@@ -94,7 +94,7 @@ A comprehensive modern architecture model is proposed to integrate platform solu
 |---|---|
 |[Cobalt Strike](https://www.cobaltstrike.com/)|Industry-standard commercial C2 framework with malleable profiles, Beacon payload, post-exploitation modules, process injection, and team collaboration for red team operations.|
 |[BruteRatel](https://bruteratel.com/)|Advanced C2 framework with userland hook removal, sleep masking, customizable communication channels, and superior EDR evasion designed for professional red teams.|
-|[Loki](https://github.com/boku7/Loki)|Lightweight open-source C2 framework emphasizing simplicity and OPSEC-safe design for covert command and control operations.|
+|[Loki](https://github.com/boku7/Loki)|Lightweight open-source C2 framework emphasizing simplicity and OPSEC-safe design for covert command and control operations. "EDR/AV evasion can be achieved through implantation using a script-jack vulnerability in electron applications."|
 |[Sliver](https://github.com/BishopFox/sliver)|Cross-platform open-source C2 by Bishop Fox supporting mTLS/WireGuard/HTTP/DNS, dynamic code generation, multiplayer mode, and compile-time obfuscation.|
 |[MythicAgents](https://github.com/MythicAgents/Mythic)|Collaborative multi-platform C2 with plug-and-play agent architecture, containerized microservices, flexible communication profiles, and browser-based team interface.|
 |[Havoc](https://github.com/HavocFramework/Havoc)|Modern open-source C2 alternative to Cobalt Strike featuring Demon agents, indirect syscalls, sleep obfuscation, and modular payload design for evasion.|
@@ -105,13 +105,13 @@ A comprehensive modern architecture model is proposed to integrate platform solu
 |Rust Pulse C2|||
 
 
-
 ## Facing-the-world
 
 |Facing-the-world|Description|
 |---|---|
 |[BounceBack](https://github.com/D00Movenok/BounceBack)|Highly configurable reverse proxy/redirector with WAF functionality, traffic filtering, malleable C2 validation, and domain fronting to shield C2 infrastructure.|
 |[C3](https://github.com/ReversecLabs/C3)|Custom Command and Control framework enabling creation of resilient, decentralized C2 channels through various interconnected relay mechanisms.|
+|[Drip](https://github.com/Gouryella/drip)|Reverse proxy/redirector with WAF functionality, traffic filtering, malleable C2 validation, and domain fronting to shield C2 infrastructure.|
 
 
 ## Phishing Platform
