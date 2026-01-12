@@ -36,17 +36,19 @@ A comprehensive modern architecture model is proposed to integrate platform solu
 
 ## AI Agent
 
-|AI Agent|Description|
+|AI Agent/MCP App/Rules|Description|
 |---|---|
-|[Cursor](https://cursor.com/)|AI-powered code editor with contextual code generation, intelligent autocomplete, and natural language editing capabilities for accelerated exploit/tool development.|
-|[Claude](https://claude.ai)|Anthropic's advanced AI assistant capable of analyzing code, explaining complex security concepts, and assisting with threat modeling and documentation.|
-|[Windsurf](https://windsurfrs.com/)|AI coding assistant designed for collaborative programming with real-time suggestions, code understanding, and multi-language support.|
+|[Cursor](https://cursor.com/)|AI-powered code editor that provides contextual code generation, intelligent autocomplete, and natural-language editing to accelerate exploit and tool development.|
+|[Claude](https://claude.ai)|Anthropic’s advanced AI assistant designed for safe, helpful, and reliable assistance, capable of code analysis, explanation, threat modeling, and documentation.|
+|[Windsurf](https://windsurfrs.com/)|AI coding assistant offering full-repository understanding, intelligent code completion, AI pair-programming chat, and enterprise-grade security to boost developer productivity.|
 |[Antigravity](https://antigravity.ai/)|AI agent specialized in software development workflows, offering intelligent code completion, refactoring suggestions, and automated testing capabilities.|
-|[Continue.dev](https://continue.dev/)|Open-source AI code assistant supporting multiple LLMs, enabling autocomplete, code explanation, and customizable prompts directly in your IDE.|
-|[HexStrike AI](https://github.com/0x4m4/hexstrike-ai)|AI-powered code assistant supporting multiple LLMs, enabling autocomplete, code explanation, and customizable prompts directly in your IDE.|
-|[Cursor Best Practices](https://github.com/digitalchild/cursor-best-practices)|AI-powered code assistant supporting multiple LLMs, enabling autocomplete, code explanation, and customizable prompts directly in your IDE.|
-|[awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules)|Collection of Cursor rules for code generation, refactoring, and testing.|
-|[Shannon](https://github.com/KeygraphHQ/shannon)|AI-powered code assistant supporting multiple LLMs, enabling autocomplete, code explanation, and customizable prompts directly in your IDE.|
+|[Continue.dev](https://continue.dev/)|Open-source AI code assistant supporting multiple LLMs, providing autocomplete, code explanations, and customizable prompts directly within the IDE.|
+|[HexStrike AI](https://github.com/0x4m4/hexstrike-ai)|Advanced MCP server that enables AI agents (Claude, GPT, Copilot, etc.) to autonomously run over 150 cybersecurity tools for automated pentesting, vulnerability discovery, bug‑bounty automation, and security research, bridging LLMs with real‑world offensive capabilities.|
+|[Cursor Best Practices](https://github.com/digitalchild/cursor-best-practices)|Repository of best‑practice guidelines and rules for using Cursor to maximize code generation, refactoring, and automated testing efficiency.|
+|[awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules)|Curated collection of useful Cursor rules for code generation, refactoring, and testing.|
+|[Shannon](https://github.com/KeygraphHQ/shannon)|Fully autonomous AI pentester that discovers real exploits in web applications, achieving a 96.15 % success rate on the hint‑free XBOW benchmark; it automates scanning, vulnerability identification, and exploit generation.|
+|[CS-MCP](https://github.com/ibaiC/CS-MCP)|MCP server implementation for Cobalt Strike (based on version 4.12), providing a programmable interface to control Cobalt Strike via the MCP protocol for automation and AI‑agent integration.|
+
 
 
 ## AI Model/LLM Server
