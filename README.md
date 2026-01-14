@@ -105,6 +105,7 @@ A comprehensive modern architecture model is proposed to integrate platform solu
 |[Adaptix C2](https://github.com/Adaptix-Framework/AdaptixC2)|C2 platform combining offensive operations with analytics-driven approach to adversary emulation and security validation.|
 |Sryxen|“A platform developed by EvilByte focuses on exfiltrating data from victim endpoints and evading security controls.”|
 |Rust Pulse C2|||
+|[Bear C2](https://github.com/S3N4T0R-0X0/BEAR)|Bear C2 is a compilation of C2 scripts, payloads, and stagers used in simulated attacks by Russian APT groups|
 
 
 ## Facing-the-world
@@ -150,4 +151,12 @@ A comprehensive modern architecture model is proposed to integrate platform solu
 |[SharpCollection](https://github.com/Flangvik/SharpCollection)|Pre-compiled .NET assembly collection for red team operations including privilege escalation, lateral movement, and Active Directory exploitation.|
 |[UnProtect](https://unprotect.it/)|Comprehensive malware evasion techniques database documenting anti-analysis, anti-debugging, and EDR/AV bypass methods with classification and PoCs.|
 |[DumpChromeSecrets](https://github.com/Maldev-Academy/DumpChromeSecrets)|Tool for extracting Chrome's App-Bound Encryption to extract cookies, credentials, and sensitive data from Chromium-based browsers for post-exploitation.|
+|[Malware Source Code](https://malwaresourcecode.com/)|Collection of malware source code, PoCs, and offensive security tools demonstrating various implant techniques and evasion methods.|
 
+
+## Lab Environment
+
+|Yara Rule|Description|
+|---|---|
+|[Elastic Protections Artifacts](https://github.com/elastic/protections-artifacts)|Elastic Protections Artifacts is a collection of Yara rules for detecting and identifying malicious artifacts in a lab environment.|
+|[Defender Yara](https://github.com/roadwy/DefenderYara)|Defender Yara is a collection of Yara rules for detecting and identifying malicious artifacts in a lab environment.|
