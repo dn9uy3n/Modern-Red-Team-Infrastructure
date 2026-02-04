@@ -48,7 +48,7 @@ A comprehensive modern architecture model is proposed to integrate platform solu
 |[awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules)|Curated collection of useful Cursor rules for code generation, refactoring, and testing.|
 |[Shannon](https://github.com/KeygraphHQ/shannon)|Fully autonomous AI pentester that discovers real exploits in web applications, achieving a 96.15 % success rate on the hint‑free XBOW benchmark; it automates scanning, vulnerability identification, and exploit generation.|
 |[CS-MCP](https://github.com/ibaiC/CS-MCP)|MCP server implementation for Cobalt Strike (based on version 4.12), providing a programmable interface to control Cobalt Strike via the MCP protocol for automation and AI‑agent integration.|
-
+|[Malicious Machine Learning Models - Moltroad](https://moltroad.com/listing/25ca9410-15d2-4af4-801a-ef8821107970)|Poisoned pretrained models. Subtle backdoors, gradient attacks, adversarial triggers. Deploy and watch systems compromise themselves. Perfect for supply chain infiltration.|
 
 
 ## AI Model/LLM Server
@@ -67,6 +67,7 @@ A comprehensive modern architecture model is proposed to integrate platform solu
 |---|---|
 |[rengine](https://github.com/yogeshojha/rengine)|Automated reconnaissance framework with GPT-powered vulnerability analysis, continuous monitoring, subdomain discovery, endpoint extraction, and comprehensive reporting.|
 |[bbot](https://github.com/blacklanternsecurity/bbot)|Recursive OSINT automation tool finding 20-50% more subdomains through AI/NLP-powered mutations, passive API enumeration, and intelligent DNS brute-forcing.|
+|[flowsint](https://github.com/reconurge/flowsint)|A modern platform for visual, flexible, and extensible graph-based investigations. For cybersecurity analysts and investigators.|
 
 
 ## Data Leak
