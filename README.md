@@ -12,6 +12,8 @@ A comprehensive modern architecture model is proposed to integrate platform solu
 |[Red Team GitLab Handbook](https://handbook.gitlab.com/handbook/security/security-operations/red-team/)|GitLab's open-source Red Team operations handbook covering methodology, processes, tooling, and best practices for conducting enterprise-level adversarial engagements.|
 |[IBM Red teaming](https://www.ibm.com/think/topics/red-teaming)|IBM's overview of red teaming methodology, adversary simulation approaches, and how organizations can leverage offensive security testing to strengthen defenses.|
 |[Red Team](https://redteam.io/)|Community-driven platform aggregating red team tools, techniques, resources, and knowledge sharing for offensive security professionals.|
+|[VECTR](https://github.com/SecurityRiskAdvisors/VECTR)|VECTR is a modern platform for visual, flexible, and extensible graph-based investigations. For cybersecurity analysts and investigators.|
+
 
 ## RedTeam
 
@@ -61,13 +63,15 @@ A comprehensive modern architecture model is proposed to integrate platform solu
 |[PentestAgent](https://github.com/0xSojalSec/PentestAgent)|AI-powered platform specialized for security teams, offering threat intelligence analysis, report generation, and collaborative security research capabilities.|
 
 
-## OSINT Platform
+## Continuous Automated Red Team (CART)
 
-|OSINT Platform|Description|
+|CART|Description|
 |---|---|
 |[rengine](https://github.com/yogeshojha/rengine)|Automated reconnaissance framework with GPT-powered vulnerability analysis, continuous monitoring, subdomain discovery, endpoint extraction, and comprehensive reporting.|
 |[bbot](https://github.com/blacklanternsecurity/bbot)|Recursive OSINT automation tool finding 20-50% more subdomains through AI/NLP-powered mutations, passive API enumeration, and intelligent DNS brute-forcing.|
 |[flowsint](https://github.com/reconurge/flowsint)|A modern platform for visual, flexible, and extensible graph-based investigations. For cybersecurity analysts and investigators.|
+|[redamon](https://github.com/samugit83/redamon)|An AI-powered agentic red team framework that automates offensive security operations, from reconnaissance to exploitation to post-exploitation, with zero human intervention.|
+
 
 
 ## Data Leak
