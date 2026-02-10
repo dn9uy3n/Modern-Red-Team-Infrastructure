@@ -6,6 +6,7 @@ A comprehensive modern architecture model is proposed to integrate platform solu
 
 
 ## Report & Document
+This includes referenced documents, workflows, report templates, and tools to support Red Team campaigns in particular and Red Team operations in general.
 
 |Reference|Description|
 |---|---|
@@ -16,6 +17,7 @@ A comprehensive modern architecture model is proposed to integrate platform solu
 
 
 ## RedTeam
+Recommended certifications to comprehensively enhance the skills of Red Team members.
 
 |Certificates/Courses|Description|
 |---|---|
@@ -37,6 +39,7 @@ A comprehensive modern architecture model is proposed to integrate platform solu
 
 
 ## AI Agent
+AI agents are recommended to assist humans in the red team campaign deployment process. AI Agents can interact with other components via MCP. *However, we must still emphasize the importance of human decision-making and accountability.*
 
 |AI Agent/MCP App/Rules|Description|
 |---|---|
@@ -51,6 +54,7 @@ A comprehensive modern architecture model is proposed to integrate platform solu
 |[Shannon](https://github.com/KeygraphHQ/shannon)|Fully autonomous AI pentester that discovers real exploits in web applications, achieving a 96.15 % success rate on the hint‑free XBOW benchmark; it automates scanning, vulnerability identification, and exploit generation.|
 |[CS-MCP](https://github.com/ibaiC/CS-MCP)|MCP server implementation for Cobalt Strike (based on version 4.12), providing a programmable interface to control Cobalt Strike via the MCP protocol for automation and AI‑agent integration.|
 |[Malicious Machine Learning Models - Moltroad](https://moltroad.com/listing/25ca9410-15d2-4af4-801a-ef8821107970)|Poisoned pretrained models. Subtle backdoors, gradient attacks, adversarial triggers. Deploy and watch systems compromise themselves. Perfect for supply chain infiltration.|
+|[raptor](https://github.com/gadievron/raptor)|Raptor turns Claude Code into a general-purpose AI offensive/defensive security agent. By using Claude.md and creating rules, sub-agents, and skills, and orchestrating security tool usage, we configure the agent for adversarial thinking, and perform research or attack/defense operations.|
 
 
 ## AI Model/LLM Server
@@ -64,6 +68,7 @@ A comprehensive modern architecture model is proposed to integrate platform solu
 
 
 ## Continuous Automated Red Team (CART)
+"Continuous automated red teaming (CART) solutions enable organizations to continuously assess security posture in real time. CART solutions use automation to discover assets, prioritize vulnerabilities and conduct attacks using tools and exploits developed and maintained by industry experts." - IBM Red teaming
 
 |CART|Description|
 |---|---|
@@ -114,6 +119,7 @@ A comprehensive modern architecture model is proposed to integrate platform solu
 
 
 ## Facing-the-world
+The isolation layer between the Red Team's sensitive systems and the internet.
 
 |Facing-the-world|Description|
 |---|---|
@@ -135,6 +141,7 @@ A comprehensive modern architecture model is proposed to integrate platform solu
 
 
 ## Legit Mail Server
+Using Legit Mail servers helps us bypass some automatic email filters, preventing emails from being marked as suspicious or spam.
 
 |Legit Mail Server|Description|
 |---|---|
@@ -144,6 +151,7 @@ A comprehensive modern architecture model is proposed to integrate platform solu
 
 
 ## Beacon/Implant
+These sample code snippets can be used to improve, customize, or even create new malware samples to suit the Red Team campaign.
 
 |Repo/Tool|Description|
 |---|---|
@@ -160,6 +168,7 @@ A comprehensive modern architecture model is proposed to integrate platform solu
 
 
 ## Lab Environment
+After developing a malware sample for the campaign, we need to assess its detectability using static signatures while ensuring that this sample is not recorded on the cloud systems of antivirus solutions.
 
 |Yara Rule|Description|
 |---|---|
