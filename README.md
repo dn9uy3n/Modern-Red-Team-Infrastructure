@@ -55,6 +55,7 @@ AI agents are recommended to assist humans in the red team campaign deployment p
 |[CS-MCP](https://github.com/ibaiC/CS-MCP)|MCP server implementation for Cobalt Strike (based on version 4.12), providing a programmable interface to control Cobalt Strike via the MCP protocol for automation and AI‑agent integration.|
 |[Malicious Machine Learning Models - Moltroad](https://moltroad.com/listing/25ca9410-15d2-4af4-801a-ef8821107970)|Poisoned pretrained models. Subtle backdoors, gradient attacks, adversarial triggers. Deploy and watch systems compromise themselves. Perfect for supply chain infiltration.|
 |[raptor](https://github.com/gadievron/raptor)|Raptor turns Claude Code into a general-purpose AI offensive/defensive security agent. By using Claude.md and creating rules, sub-agents, and skills, and orchestrating security tool usage, we configure the agent for adversarial thinking, and perform research or attack/defense operations.|
+|[redamon](https://github.com/samugit83/redamon)|An AI-powered agentic red team framework that automates offensive security operations, from reconnaissance to exploitation to post-exploitation, with zero human intervention.|
 
 
 ## AI Model/LLM Server
@@ -116,6 +117,7 @@ AI agents are recommended to assist humans in the red team campaign deployment p
 |Sryxen|“A platform developed by EvilByte focuses on exfiltrating data from victim endpoints and evading security controls.”|
 |Rust Pulse C2|||
 |[Bear C2](https://github.com/S3N4T0R-0X0/BEAR)|Bear C2 is a compilation of C2 scripts, payloads, and stagers used in simulated attacks by Russian APT groups|
+|[RTLC2](https://github.com/CyberSecurityUP/RTLC2)|Red Team Lab Command and Control (RTLC2) is a C2 framework that provides a platform for red team operations.|
 
 
 ## Facing-the-world
@@ -165,6 +167,7 @@ These sample code snippets can be used to improve, customize, or even create new
 |[UnProtect](https://unprotect.it/)|Comprehensive malware evasion techniques database documenting anti-analysis, anti-debugging, and EDR/AV bypass methods with classification and PoCs.|
 |[DumpChromeSecrets](https://github.com/Maldev-Academy/DumpChromeSecrets)|Tool for extracting Chrome's App-Bound Encryption to extract cookies, credentials, and sensitive data from Chromium-based browsers for post-exploitation.|
 |[Malware Source Code](https://malwaresourcecode.com/)|Collection of malware source code, PoCs, and offensive security tools demonstrating various implant techniques and evasion methods.|
+|[Crystal-Kit](https://github.com/rasta-mouse/Crystal-Kit)|This repo is a technical and social experiment to explore whether replacing Cobalt Strike's evasion primitives (Sleepmask/BeaconGate).|
 
 
 ## Lab Environment
