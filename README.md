@@ -56,6 +56,7 @@ AI agents are recommended to assist humans in the red team campaign deployment p
 |[Malicious Machine Learning Models - Moltroad](https://moltroad.com/listing/25ca9410-15d2-4af4-801a-ef8821107970)|Poisoned pretrained models. Subtle backdoors, gradient attacks, adversarial triggers. Deploy and watch systems compromise themselves. Perfect for supply chain infiltration.|
 |[raptor](https://github.com/gadievron/raptor)|Raptor turns Claude Code into a general-purpose AI offensive/defensive security agent. By using Claude.md and creating rules, sub-agents, and skills, and orchestrating security tool usage, we configure the agent for adversarial thinking, and perform research or attack/defense operations.|
 |[redamon](https://github.com/samugit83/redamon)|An AI-powered agentic red team framework that automates offensive security operations, from reconnaissance to exploitation to post-exploitation, with zero human intervention.|
+|[pentagi](https://github.com/vxcontrol/pentagi)|Fully autonomous AI Agents system capable of performing complex penetration testing tasks |
 
 
 ## AI Model/LLM Server
@@ -168,6 +169,7 @@ These sample code snippets can be used to improve, customize, or even create new
 |[DumpChromeSecrets](https://github.com/Maldev-Academy/DumpChromeSecrets)|Tool for extracting Chrome's App-Bound Encryption to extract cookies, credentials, and sensitive data from Chromium-based browsers for post-exploitation.|
 |[Malware Source Code](https://malwaresourcecode.com/)|Collection of malware source code, PoCs, and offensive security tools demonstrating various implant techniques and evasion methods.|
 |[Crystal-Kit](https://github.com/rasta-mouse/Crystal-Kit)|This repo is a technical and social experiment to explore whether replacing Cobalt Strike's evasion primitives (Sleepmask/BeaconGate).|
+|[SysWhispers4](https://github.com/JoasASantos/SysWhispers4)|SysWhispers is a tool that generates position-independent shellcode that calls Windows API functions directly, bypassing user-mode hooks and improving EDR evasion.|
 
 
 ## Lab Environment
