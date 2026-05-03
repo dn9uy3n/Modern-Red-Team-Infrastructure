@@ -57,6 +57,8 @@ AI agents are recommended to assist humans in the red team campaign deployment p
 |[raptor](https://github.com/gadievron/raptor)|Raptor turns Claude Code into a general-purpose AI offensive/defensive security agent. By using Claude.md and creating rules, sub-agents, and skills, and orchestrating security tool usage, we configure the agent for adversarial thinking, and perform research or attack/defense operations.|
 |[redamon](https://github.com/samugit83/redamon)|An AI-powered agentic red team framework that automates offensive security operations, from reconnaissance to exploitation to post-exploitation, with zero human intervention.|
 |[pentagi](https://github.com/vxcontrol/pentagi)|Fully autonomous AI Agents system capable of performing complex penetration testing tasks |
+|[strix](https://www.strix.ai/)|Open-source AI hackers to find and fix your app’s vulnerabilities. |
+|[dreadnode](https://dreadnode.io/)|Dreadnode is a terminal-native platform for building, evaluating, and deploying offensive security agents. |
 
 
 ## AI Model/LLM Server
@@ -170,6 +172,8 @@ These sample code snippets can be used to improve, customize, or even create new
 |[Malware Source Code](https://malwaresourcecode.com/)|Collection of malware source code, PoCs, and offensive security tools demonstrating various implant techniques and evasion methods.|
 |[Crystal-Kit](https://github.com/rasta-mouse/Crystal-Kit)|This repo is a technical and social experiment to explore whether replacing Cobalt Strike's evasion primitives (Sleepmask/BeaconGate).|
 |[SysWhispers4](https://github.com/JoasASantos/SysWhispers4)|SysWhispers is a tool that generates position-independent shellcode that calls Windows API functions directly, bypassing user-mode hooks and improving EDR evasion.|
+|[CrossC2](https://github.com/gloxec/CrossC2)|generate CobaltStrike's cross-platform payload|
+|[BinarySpy](https://github.com/yj94/BinarySpy)|A tool for automatic patch shellcode into binary file to bypass AV.|
 
 
 ## Lab Environment
