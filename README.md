@@ -59,6 +59,7 @@ AI agents are recommended to assist humans in the red team campaign deployment p
 |[pentagi](https://github.com/vxcontrol/pentagi)|Fully autonomous AI Agents system capable of performing complex penetration testing tasks |
 |[strix](https://www.strix.ai/)|Open-source AI hackers to find and fix your app’s vulnerabilities. |
 |[dreadnode](https://dreadnode.io/)|Dreadnode is a terminal-native platform for building, evaluating, and deploying offensive security agents. |
+|[claude-evidence](https://github.com/dn9uy3n/claude-evidence)|AI-powered evidence capture and documentation framework for automated security testing and red team operations tracking.|
 
 
 ## AI Model/LLM Server
@@ -89,6 +90,8 @@ AI agents are recommended to assist humans in the red team campaign deployment p
 |---|---|
 |[Group-IB](https://www.group-ib.com/)|Search engine for identifying exposed databases, credentials, and sensitive information from historical breaches for threat intelligence and exposure assessment.|
 |[IntelX](https://intelx.io/)|Search engine for identifying exposed databases, credentials, and sensitive information from historical breaches for threat intelligence and exposure assessment.|
+|[AK Log query](https://t.me/akquery2020)|Telegram channel for data leak notifications and exposed database intelligence.|
+|[Leak Radar](https://t.me/Leakradarcloud_bot?start=ref888771449)|Telegram bot providing real-time alerts on data leaks and exposed credentials from various sources.|
 
 
 ## Search Engine
@@ -121,6 +124,7 @@ AI agents are recommended to assist humans in the red team campaign deployment p
 |Rust Pulse C2|||
 |[Bear C2](https://github.com/S3N4T0R-0X0/BEAR)|Bear C2 is a compilation of C2 scripts, payloads, and stagers used in simulated attacks by Russian APT groups|
 |[RTLC2](https://github.com/CyberSecurityUP/RTLC2)|Red Team Lab Command and Control (RTLC2) is a C2 framework that provides a platform for red team operations.|
+|[ArachneC2](https://github.com/portbuster1337/ArachneC2)|Advanced C2 framework with sophisticated command and control capabilities for red team operations.|
 
 
 ## Facing-the-world
@@ -131,6 +135,7 @@ The isolation layer between the Red Team's sensitive systems and the internet.
 |[BounceBack](https://github.com/D00Movenok/BounceBack)|Highly configurable reverse proxy/redirector with WAF functionality, traffic filtering, malleable C2 validation, and domain fronting to shield C2 infrastructure.|
 |[C3](https://github.com/ReversecLabs/C3)|Custom Command and Control framework enabling creation of resilient, decentralized C2 channels through various interconnected relay mechanisms.|
 |[Drip](https://github.com/Gouryella/drip)|Reverse proxy/redirector with WAF functionality, traffic filtering, malleable C2 validation, and domain fronting to shield C2 infrastructure.|
+|[InfraGuard](https://github.com/Whispergate/InfraGuard)|Infrastructure hardening and protection tool for securing red team facing-the-world components with advanced filtering and threat detection capabilities.|
 
 
 ## Phishing Platform
@@ -143,6 +148,7 @@ The isolation layer between the Red Team's sensitive systems and the internet.
 |[EvilGoPhish](https://github.com/evilgophish/evilgophish)|Integration combining Gophish's campaign management with Evilginx's MFA bypass capabilities for sophisticated phishing simulations.|
 |[GitHubDeviceCodePhishing](https://github.com/Maldev-Academy/GitHubDeviceCodePhishing)|Tool for extracting Chrome's App-Bound Encryption to extract cookies, credentials, and sensitive data from Chromium-based browsers for post-exploitation.|
 |[CamPhish](https://github.com/Mr-Spect3r/CamPhish)|Tool for extracting Chrome's App-Bound Encryption to extract cookies, credentials, and sensitive data from Chromium-based browsers for post-exploitation.|
+|[SocialFish](https://github.com/UndeadSec/SocialFish)|Open-source phishing framework for social engineering campaigns with credential harvesting and phishing page creation capabilities.|
 
 
 ## Legit Mail Server
@@ -174,6 +180,8 @@ These sample code snippets can be used to improve, customize, or even create new
 |[SysWhispers4](https://github.com/JoasASantos/SysWhispers4)|SysWhispers is a tool that generates position-independent shellcode that calls Windows API functions directly, bypassing user-mode hooks and improving EDR evasion.|
 |[CrossC2](https://github.com/gloxec/CrossC2)|generate CobaltStrike's cross-platform payload|
 |[BinarySpy](https://github.com/yj94/BinarySpy)|A tool for automatic patch shellcode into binary file to bypass AV.|
+|[Crystal-Grotto](https://github.com/sliverarmory/crystal-grotto)|Sliver armory repository providing modular beacon and implant enhancements for advanced red team operations.|
+|[CloakBrowser](https://github.com/CloakHQ/CloakBrowser)|Browser-based implant delivery and execution framework for seamless code execution within target environments.|
 
 
 ## Lab Environment
