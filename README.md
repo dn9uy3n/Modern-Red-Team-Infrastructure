@@ -60,6 +60,8 @@ AI agents are recommended to assist humans in the red team campaign deployment p
 |[strix](https://www.strix.ai/)|Open-source AI hackers to find and fix your app’s vulnerabilities. |
 |[dreadnode](https://dreadnode.io/)|Dreadnode is a terminal-native platform for building, evaluating, and deploying offensive security agents. |
 |[claude-evidence](https://github.com/dn9uy3n/claude-evidence)|AI-powered evidence capture and documentation framework for automated security testing and red team operations tracking.|
+|[Agentic-Bug-Hunter](https://github.com/Awarexone/Agentic-Bug-Hunter)|AI-powered bug bounty hunting toolkit covering recon → vulnerability discovery → validation (7-Question Gate) → submission-ready reporting for HackerOne, Bugcrowd, Intigriti, and Immunefi; works as a standalone CLI, Claude Code plugin, or MCP server with 9 specialized agents.|
+|[Pentest-Swarm-AI](https://github.com/Armur-Ai/Pentest-Swarm-AI)|Open-source, self-hosted autonomous pentester built on a real swarm architecture — dozens of AI agents coordinate via a stigmergic blackboard to recon, classify, exploit, and report; chains attacks (BOLA/IDOR, JWT forgery, SSRF, SQLi, mass assignment) and proves vulnerabilities with captured evidence. Bring your own model (Claude, OpenAI-compatible, Ollama/LM Studio) and the ProjectDiscovery toolchain.|
 
 
 ## AI Model/LLM Server
@@ -182,6 +184,7 @@ These sample code snippets can be used to improve, customize, or even create new
 |[BinarySpy](https://github.com/yj94/BinarySpy)|A tool for automatic patch shellcode into binary file to bypass AV.|
 |[Crystal-Grotto](https://github.com/sliverarmory/crystal-grotto)|Sliver armory repository providing modular beacon and implant enhancements for advanced red team operations.|
 |[CloakBrowser](https://github.com/CloakHQ/CloakBrowser)|Browser-based implant delivery and execution framework for seamless code execution within target environments.|
+|[OperatorsKit](https://github.com/REDMED-X/OperatorsKit)|Collection of 40+ Beacon Object Files (BOFs) for Cobalt Strike and other C2 frameworks, covering enumeration (security products, exclusions, shares, Sysmon), defense evasion (Defender exclusions, firewall rules, DLL sideloading/hijacking), credential attacks (Kerberoasting, password spraying, NetNTLM capture), and injection (PoolParty via Windows Thread Pools).|
 
 
 ## Lab Environment
