@@ -57,6 +57,7 @@ AI agents are recommended to assist humans in the red team campaign deployment p
 |[Malicious Machine Learning Models - Moltroad](https://moltroad.com/listing/25ca9410-15d2-4af4-801a-ef8821107970)|Poisoned pretrained models. Subtle backdoors, gradient attacks, adversarial triggers. Deploy and watch systems compromise themselves. Perfect for supply chain infiltration.|
 |[raptor](https://github.com/gadievron/raptor)|Raptor turns Claude Code into a general-purpose AI offensive/defensive security agent. By using Claude.md and creating rules, sub-agents, and skills, and orchestrating security tool usage, we configure the agent for adversarial thinking, and perform research or attack/defense operations.|
 |[redamon](https://github.com/samugit83/redamon)|An AI-powered agentic red team framework that automates offensive security operations, from reconnaissance to exploitation to post-exploitation, with zero human intervention.|
+|[ars0n-framework-v2](https://github.com/R-s0n/ars0n-framework-v2)|Modular bug bounty framework wrapping 50+ open-source security tools (Amass, Subfinder, Nuclei, Katana, sqlmap...) in Docker containers, enforcing a structured recon methodology with centralized scan data; ships an MCP server exposing 157 tools for AI-assisted recon, triage, and vulnerability scanning.|
 |[pentagi](https://github.com/vxcontrol/pentagi)|Fully autonomous AI Agents system capable of performing complex penetration testing tasks |
 |[strix](https://www.strix.ai/)|Open-source AI hackers to find and fix your app’s vulnerabilities. |
 |[dreadnode](https://dreadnode.io/)|Dreadnode is a terminal-native platform for building, evaluating, and deploying offensive security agents. |
@@ -186,6 +187,7 @@ These sample code snippets can be used to improve, customize, or even create new
 |[Crystal-Grotto](https://github.com/sliverarmory/crystal-grotto)|Sliver armory repository providing modular beacon and implant enhancements for advanced red team operations.|
 |[CloakBrowser](https://github.com/CloakHQ/CloakBrowser)|Browser-based implant delivery and execution framework for seamless code execution within target environments.|
 |[OperatorsKit](https://github.com/REDMED-X/OperatorsKit)|Collection of 40+ Beacon Object Files (BOFs) for Cobalt Strike and other C2 frameworks, covering enumeration (security products, exclusions, shares, Sysmon), defense evasion (Defender exclusions, firewall rules, DLL sideloading/hijacking), credential attacks (Kerberoasting, password spraying, NetNTLM capture), and injection (PoolParty via Windows Thread Pools).|
+|[Cuban-Eight](https://github.com/shaheeryasirofficial/Cuban-Eight)|WSL distro packager that wraps a Windows PE payload as a double-clickable .wsl file; on launch, Windows registers it as a Linux distro and the payload executes via WSL interop (binfmt_misc) with a minimal ~18KB rootfs and spoofable distro identity (Ubuntu, Kali, Debian...) for stealthy initial access.|
 
 
 ## Lab Environment
