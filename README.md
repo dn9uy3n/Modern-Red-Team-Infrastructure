@@ -13,7 +13,7 @@ This includes referenced documents, workflows, report templates, and tools to su
 |[Red Team GitLab Handbook](https://handbook.gitlab.com/handbook/security/security-operations/red-team/)|GitLab's open-source Red Team operations handbook covering methodology, processes, tooling, and best practices for conducting enterprise-level adversarial engagements.|
 |[IBM Red teaming](https://www.ibm.com/think/topics/red-teaming)|IBM's overview of red teaming methodology, adversary simulation approaches, and how organizations can leverage offensive security testing to strengthen defenses.|
 |[Red Team](https://redteam.io/)|Community-driven platform aggregating red team tools, techniques, resources, and knowledge sharing for offensive security professionals.|
-|[VECTR](https://github.com/SecurityRiskAdvisors/VECTR)|VECTR is a modern platform for visual, flexible, and extensible graph-based investigations. For cybersecurity analysts and investigators.|
+|[VECTR](https://github.com/SecurityRiskAdvisors/VECTR)|Adversary emulation and purple teaming platform by Security Risk Advisors for planning, executing, and tracking red team campaigns — maps TTPs to MITRE ATT&CK, documents detection coverage, and measures security posture improvements over time.|
 
 
 ## RedTeam
@@ -71,8 +71,8 @@ AI agents are recommended to assist humans in the red team campaign deployment p
 |---|---|
 |[OpenAI](https://openai.com/)|Leading AI research organization providing GPT models through API for natural language processing, code generation, and complex reasoning tasks.|
 |[huggingface](https://huggingface.co/)|Open platform hosting thousands of pre-trained models, datasets, and tools for NLP, computer vision, and machine learning experimentation.|
-|[DeepTeam](https://www.trydeepteam.com/)|AI-powered platform specialized for security teams, offering threat intelligence analysis, report generation, and collaborative security research capabilities.|
-|[PentestAgent](https://github.com/0xSojalSec/PentestAgent)|AI-powered platform specialized for security teams, offering threat intelligence analysis, report generation, and collaborative security research capabilities.|
+|[DeepTeam](https://www.trydeepteam.com/)|Open-source AI red teaming framework (by Confident AI) for testing LLM applications against 40+ vulnerability types — jailbreaks, prompt injection, hallucination, bias, PII leakage — with automated attack generation and evaluation reports aligned to OWASP LLM Top 10 and NIST AI RMF.|
+|[PentestAgent](https://github.com/0xSojalSec/PentestAgent)|All-in-one AI offensive security assistant with MCP architecture and RAG-based knowledge base; integrates 15+ security tools (Nmap, Metasploit, FFUF, SQLMap, Nuclei) via MCP servers, supports autonomous agent mode with pentesting task trees, predefined workflows, and markdown report generation.|
 
 
 ## Continuous Automated Red Team (CART)
@@ -82,7 +82,7 @@ AI agents are recommended to assist humans in the red team campaign deployment p
 |---|---|
 |[rengine](https://github.com/yogeshojha/rengine)|Automated reconnaissance framework with GPT-powered vulnerability analysis, continuous monitoring, subdomain discovery, endpoint extraction, and comprehensive reporting.|
 |[bbot](https://github.com/blacklanternsecurity/bbot)|Recursive OSINT automation tool finding 20-50% more subdomains through AI/NLP-powered mutations, passive API enumeration, and intelligent DNS brute-forcing.|
-|[flowsint](https://github.com/reconurge/flowsint)|A modern platform for visual, flexible, and extensible graph-based investigations. For cybersecurity analysts and investigators.|
+|[flowsint](https://github.com/reconurge/flowsint)|Self-hosted, graph-based OSINT investigation platform: explore relationships between domains, IPs, people, emails, and crypto wallets through automated enrichers (subdomain discovery, WHOIS, breach checks, Maigret username search) on a Neo4j graph with privacy-first local storage.|
 |[redamon](https://github.com/samugit83/redamon)|An AI-powered agentic red team framework that automates offensive security operations, from reconnaissance to exploitation to post-exploitation, with zero human intervention.|
 
 
@@ -121,8 +121,8 @@ AI agents are recommended to assist humans in the red team campaign deployment p
 |[MythicAgents](https://github.com/MythicAgents/Mythic)|Collaborative multi-platform C2 with plug-and-play agent architecture, containerized microservices, flexible communication profiles, and browser-based team interface.|
 |[Havoc](https://github.com/HavocFramework/Havoc)|Modern open-source C2 alternative to Cobalt Strike featuring Demon agents, indirect syscalls, sleep obfuscation, and modular payload design for evasion.|
 |[Nimhawk](https://github.com/hdbreaker/Nimhawk)|Stealthy C2 framework written in Nim language offering native speed, small payload sizes, and cross-platform capabilities for red team engagements.|
-|[Specter Insight](https://practicalsecurityanalytics.com/specterinsight/)|C2 platform combining offensive operations with analytics-driven approach to adversary emulation and security validation.|
-|[Adaptix C2](https://github.com/Adaptix-Framework/AdaptixC2)|C2 platform combining offensive operations with analytics-driven approach to adversary emulation and security validation.|
+|[Specter Insight](https://practicalsecurityanalytics.com/specterinsight/)|Commercial cross-platform .NET post-exploitation C2 framework for red team engagements and threat emulation; PowerShell implants with 167 built-in SpecterScripts, payload obfuscation pipelines, AMSI/logging bypass, and ELK integration with pre-built MITRE ATT&CK dashboards.|
+|[Adaptix C2](https://github.com/Adaptix-Framework/AdaptixC2)|Open-source, extensible C2 framework with a cross-platform agent (Windows, Linux, macOS), HTTP/S listeners, GUI and console operator clients, .NET in-memory assembly execution, and a community extension ecosystem for custom agents and post-exploitation modules.|
 |Sryxen|“A platform developed by EvilByte focuses on exfiltrating data from victim endpoints and evading security controls.”|
 |Rust Pulse C2|||
 |[Bear C2](https://github.com/S3N4T0R-0X0/BEAR)|Bear C2 is a compilation of C2 scripts, payloads, and stagers used in simulated attacks by Russian APT groups|
@@ -135,9 +135,9 @@ The isolation layer between the Red Team's sensitive systems and the internet.
 
 |Facing-the-world|Description|
 |---|---|
-|[BounceBack](https://github.com/D00Movenok/BounceBack)|Highly configurable reverse proxy/redirector with WAF functionality, traffic filtering, malleable C2 validation, and domain fronting to shield C2 infrastructure.|
+|[BounceBack](https://github.com/D00Movenok/BounceBack)|Highly configurable malleable redirector with embedded WAF functionality — IP/ASN/User-Agent allowlists, malleable C2 profile validation, and domain fronting support to filter malicious traffic and shield C2 infrastructure.|
 |[C3](https://github.com/ReversecLabs/C3)|Custom Command and Control framework enabling creation of resilient, decentralized C2 channels through various interconnected relay mechanisms.|
-|[Drip](https://github.com/Gouryella/drip)|Reverse proxy/redirector with WAF functionality, traffic filtering, malleable C2 validation, and domain fronting to shield C2 infrastructure.|
+|[Drip](https://github.com/Gouryella/drip)|Self-hosted tunneling solution for exposing local services to the internet through your own domain — unlimited tunnels and bandwidth, bearer-token access control, and per-tunnel QoS bandwidth limiting; useful for exposing redirector or phishing infrastructure without third-party tunneling services.|
 |[InfraGuard](https://github.com/Whispergate/InfraGuard)|Infrastructure hardening and protection tool for securing red team facing-the-world components with advanced filtering and threat detection capabilities.|
 
 
@@ -149,8 +149,8 @@ The isolation layer between the Red Team's sensitive systems and the internet.
 |[Evilginx 3.0](https://github.com/kgretzky/evilginx2)|Open-source man-in-the-middle attack framework transparently proxying authentication flows to capture credentials and session cookies, defeating 2FA/MFA protections.|
 |[Gophish](https://getgophish.com/)|Open-source phishing simulation platform with campaign management, email template customization, landing pages, real-time analytics, and REST API for security awareness training.|
 |[EvilGoPhish](https://github.com/evilgophish/evilgophish)|Integration combining Gophish's campaign management with Evilginx's MFA bypass capabilities for sophisticated phishing simulations.|
-|[GitHubDeviceCodePhishing](https://github.com/Maldev-Academy/GitHubDeviceCodePhishing)|Tool for extracting Chrome's App-Bound Encryption to extract cookies, credentials, and sensitive data from Chromium-based browsers for post-exploitation.|
-|[CamPhish](https://github.com/Mr-Spect3r/CamPhish)|Tool for extracting Chrome's App-Bound Encryption to extract cookies, credentials, and sensitive data from Chromium-based browsers for post-exploitation.|
+|[GitHubDeviceCodePhishing](https://github.com/Maldev-Academy/GitHubDeviceCodePhishing)|Phishing technique abusing GitHub’s OAuth device code flow: the target is lured into entering an attacker-supplied code on GitHub’s legitimate login page, granting the attacker’s application an access token to the victim’s account.|
+|[CamPhish](https://github.com/Mr-Spect3r/CamPhish)|Camera phishing tool that generates a malicious link; when the target opens it and grants camera permission, the tool silently captures snapshots from the victim’s device camera and collects basic device information.|
 |[SocialFish](https://github.com/UndeadSec/SocialFish)|Open-source phishing framework for social engineering campaigns with credential harvesting and phishing page creation capabilities.|
 
 
@@ -171,14 +171,14 @@ These sample code snippets can be used to improve, customize, or even create new
 |---|---|
 |[Rust for malware Development](https://github.com/Whitecat18/Rust-for-Malware-Development)|Educational repository teaching Rust-based implant development leveraging memory safety, low-level control, and cross-compilation for modern red team operations.|
 |[ChromElevator (Chrome App-Bound Encryption Decryption)](https://github.com/Whitecat18/ChromElevator)|Tool for bypassing Chrome's App-Bound Encryption to extract cookies, credentials, and sensitive data from Chromium-based browsers for post-exploitation.|
-|[EvilBytecode](https://github.com/EvilBytecode)|Collection of malware development projects, PoCs, and offensive security tools demonstrating various implant techniques and evasion methods.|
+|[EvilBytecode](https://github.com/EvilBytecode)|GitHub collection of malware development PoCs and offensive tooling written in Go, Rust and C++, demonstrating process injection, direct syscalls/NTAPI evasion, payload loaders, and various EDR bypass techniques.|
 |[OffensiveCpp](https://github.com/lsecqt/OffensiveCpp)|Curated collection of C++ offensive security projects including process injection, EDR bypass, shellcode loaders, and exploitation techniques.|
 |[OffensiveGo](https://github.com/lsecqt/OffensiveGo)|Repository of offensive Golang projects for implant development, infrastructure tooling, and cross-platform exploitation utilities.|
 |[OffensiveRust](https://github.com/lsecqt/OffensiveRust)|Collection of Rust-based offensive security tools demonstrating system-level programming for malware development and post-exploitation.|
 |[SharpCollection](https://github.com/Flangvik/SharpCollection)|Pre-compiled .NET assembly collection for red team operations including privilege escalation, lateral movement, and Active Directory exploitation.|
 |[UnProtect](https://unprotect.it/)|Comprehensive malware evasion techniques database documenting anti-analysis, anti-debugging, and EDR/AV bypass methods with classification and PoCs.|
 |[DumpChromeSecrets](https://github.com/Maldev-Academy/DumpChromeSecrets)|Tool for extracting Chrome's App-Bound Encryption to extract cookies, credentials, and sensitive data from Chromium-based browsers for post-exploitation.|
-|[Malware Source Code](https://malwaresourcecode.com/)|Collection of malware source code, PoCs, and offensive security tools demonstrating various implant techniques and evasion methods.|
+|[Malware Source Code](https://malwaresourcecode.com/)|Personal archive of Windows malware source code snippets and research write-ups (WINAPI-based payloads) maintained by the vx-underground administrator; educational resource pointing to the broader vx-underground source-code collection.|
 |[Crystal-Kit](https://github.com/rasta-mouse/Crystal-Kit)|This repo is a technical and social experiment to explore whether replacing Cobalt Strike's evasion primitives (Sleepmask/BeaconGate).|
 |[SysWhispers4](https://github.com/JoasASantos/SysWhispers4)|SysWhispers is a tool that generates position-independent shellcode that calls Windows API functions directly, bypassing user-mode hooks and improving EDR evasion.|
 |[CrossC2](https://github.com/gloxec/CrossC2)|generate CobaltStrike's cross-platform payload|
