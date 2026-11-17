@@ -136,6 +136,7 @@ AI agents are recommended to assist humans in the red team campaign deployment p
 |[RTLC2](https://github.com/CyberSecurityUP/RTLC2)|Red Team Lab Command and Control (RTLC2) is a C2 framework that provides a platform for red team operations.|
 |[ArachneC2](https://github.com/portbuster1337/ArachneC2)|Advanced C2 framework with sophisticated command and control capabilities for red team operations.|
 |[AzaleaControl](https://azaleacontrol.biz/)|Commercial command & control platform for red team operations and authorized testing: HVNC/HRDP remote control, credential dumping (SAM, DPAPI, DCSync), AD enumeration, PsExec lateral movement, privilege escalation (kernel CVEs, potato suite), indirect syscalls for EDR evasion, ring-3 rootkit, Windows Defender/Tamper Protection bypass, SOCKS5 pivoting, and a builder with multiple output formats (shellcode, DLL, .lnk, .bat).|
+|[NukeRat](https://github.com/nukeratframework/nukerat)|Post-exploitation framework for advanced red team operations: armory of 550+ adapted BOF and .NET utilities, custom C2 channels through external platforms (Telegram, Discord...), runtime evasion (indirect syscalls, stack spoofing, sleep mask, AMSI/ETW patching), multiple injection modes (VirtualAlloc, section, module stomping), LOTL via 240+ LOLBAS, cross-platform implants (Windows/Linux/macOS ARM), AI agent integration, and IOC/report generation.|
 
 
 ## Facing-the-world
