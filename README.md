@@ -101,6 +101,7 @@ AI agents are recommended to assist humans in the red team campaign deployment p
 |[IntelX](https://intelx.io/)|Search engine for identifying exposed databases, credentials, and sensitive information from historical breaches for threat intelligence and exposure assessment.|
 |[AK Log query](https://t.me/akquery2020)|Telegram channel for data leak notifications and exposed database intelligence.|
 |[Leak Radar](https://t.me/Leakradarcloud_bot?start=ref888771449)|Telegram bot providing real-time alerts on data leaks and exposed credentials from various sources.|
+|[Beralock](https://beralock.com/)|Threat intelligence platform for breach exposure and dark web monitoring: free email/phone/domain breach lookups across stealer logs and credential dumps, brand & impersonation monitoring with takedowns, analyst-led monitoring of 1,400+ forums/Telegram channels/ransomware leak sites, plus VAPT and intelligence-led red team services.|
 
 
 ## Search Engine
